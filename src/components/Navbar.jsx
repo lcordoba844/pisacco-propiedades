@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo + Nombre */}
           <div className="flex items-center">
-            <img href="#home" src="/perfilFacebookPisaccoPropiedades.jpg" alt="img" className="h-8 w-8 mr-2 rounded-full" />
+            <img src="/perfilFacebookPisaccoPropiedades.jpg" alt="img" className="h-8 w-8 mr-2 rounded-full" />
             <a href="#home" className="text-xl font-semibold text-white">Pisacco Propiedades</a>
           </div>
 

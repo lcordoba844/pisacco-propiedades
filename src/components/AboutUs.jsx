@@ -1,4 +1,5 @@
 import React from 'react';
+import perfilImage from '../assets/perfilFacebookPisaccoPropiedades.jpg';
 
 const AboutUs = () => {
   return (
@@ -42,7 +43,7 @@ const AboutUs = () => {
           {/* Imagen y equipo */}
           <div className="text-center">
             <img
-              src="/perfilFacebookPisaccoPropiedades.jpg"
+              src={perfilImage}
               alt="Alejo Pisacco"
               className="h-40 w-40 rounded-full mx-auto mb-4 object-cover"
             />
